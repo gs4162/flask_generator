@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MHM EEL-BOM-ERP Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <form method="post">
+        <h2>Concept for generating EEL / BOM / ERP input</h2>
+        <h4>Note: the temperture field decideds inclusion of Dehumidifier, Carton Stop, Hydronic heating. </h4>        
+        <label for="input1">Site Name:</label>
+        <input type="text" id="input1" name="input1"><br>
+        <label for="input2">Project Number:</label>
+        <input type="text" id="input2" name="input2"><br>
+        <label for="input3">Engineer Name:</label>
+        <input type="text" id="input3" name="input3"><br>
+        <label for="input4">Engineer Name:</label>
+        <input type="text" id="input4" name="input4"><br>        
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
