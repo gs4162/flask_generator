@@ -51,7 +51,7 @@ def home():
         
         
         
-        wb.save(input1+"test_data.xlsx")
+        wb.save("V.01/test_data.xlsx")
 
         return render_template('success.html', input1=input1, input2=input2, input3=input3,input4=input4, input5=input5, input6=input6,input7=input7, input8=input8, input9=input9,input10=input10, input11=input11, input12=input12, )
         
